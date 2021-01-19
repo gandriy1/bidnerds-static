@@ -2237,12 +2237,14 @@ header .navbar-expand .navbar-brand .featured .first {
 
 .slider-h-100 {
     width: 100%;
-    height: calc(100vh - 50px);
+    height: 100vh;
 }
 
 .slider-h-100.slider-h-auto {
-    min-height: calc(100vh - 50px);
+    min-height: 100vh;
 }
+
+/*height: calc(100vh - 50px);*/
 
 .slider-h-85 {
     width: 100%;
